@@ -9,6 +9,7 @@
 /Build*/
 /Bin/
 /bin/
+/bin-int/
 /Lib/
 /lib/
 /out/
@@ -17,6 +18,9 @@
 
 # Distribution target
 /Distribution/
+
+# Lua Dependency
+/Dependencies/lua-5.4.2/
 
 # macOS directory info file
 .DS_Store

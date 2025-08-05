@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{6917EFFE-D5F6-6D9A-DE0E-F9704A6DD4FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi">
+      <UniqueIdentifier>{212DF3B7-8DED-6EEE-5628-B86BC2A7B3CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Config">
+      <UniqueIdentifier>{0679CCB5-F207-567F-9B26-6A7A87946625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Core">
+      <UniqueIdentifier>{19AE6AF0-0592-2B46-6EF2-25995AF515C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Core\Containers">
+      <UniqueIdentifier>{FECEBF27-6AE7-A651-3394-36EB9F6B3BEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Core\Elements">
+      <UniqueIdentifier>{85170619-F124-34FF-7A0B-30EAE61700B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Debugger">
+      <UniqueIdentifier>{95C45A2A-81BE-837C-6A2B-1A8D56C4E9E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Lottie">
+      <UniqueIdentifier>{816CCECA-6DFB-5794-161A-6C8F0288683A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\Lua">
+      <UniqueIdentifier>{32EE31AA-9E04-3040-E77B-BB6153D100C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RmlUi\SVG">
+      <UniqueIdentifier>{E00732AA-4C1E-3040-9595-BB6101EB00C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{56EB95D1-428D-C0A7-2B48-D4FB178947F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{6E95150F-DA4A-8E04-633F-88DBCFF38408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Elements">
+      <UniqueIdentifier>{7A0E6737-669D-F000-0FBC-04FCFB2901A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\FontEngineDefault">
+      <UniqueIdentifier>{0F55EDDE-7B6D-D408-441A-64A2B0F168A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Layout">
+      <UniqueIdentifier>{5B2FFE54-4713-BFAA-B073-B9FD9C76A92C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Debugger">
+      <UniqueIdentifier>{6A4E23E8-D6D9-90AC-DFEA-13A14BF5ECAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Lottie">
+      <UniqueIdentifier>{167DD03F-823D-4C76-4B78-95F3B7F79052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Lua">
+      <UniqueIdentifier>{E7BEC236-D376-0484-3C7E-DDDF28559F74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Lua\Elements">
+      <UniqueIdentifier>{13F0F0EB-7F51-CEF9-08BF-14AC741F05B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SVG">
+      <UniqueIdentifier>{95D8C236-8190-0484-EA97-DDDFD66E9F74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\RmlUi\Config\Config.h">
+      <Filter>Include\RmlUi\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core.h">
+      <Filter>Include\RmlUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Animation.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\BaseXMLParser.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Box.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\CallbackTexture.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Colour.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\CompiledFilterShader.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ComputedValues.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Containers\robin_hood.h">
+      <Filter>Include\RmlUi\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Context.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ContextInstancer.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ConvolutionFilter.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Core.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\DataModelHandle.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\DataStructHandle.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\DataTypeRegister.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\DataTypes.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\DataVariable.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Debug.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\DecorationTypes.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Decorator.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Dictionary.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\EffectSpecification.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Element.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ElementDocument.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ElementInstancer.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ElementScroll.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ElementText.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ElementUtilities.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementForm.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementFormControl.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementFormControlInput.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementFormControlSelect.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementFormControlTextArea.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementProgress.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Elements\ElementTabSet.h">
+      <Filter>Include\RmlUi\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Event.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\EventInstancer.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\EventListener.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\EventListenerInstancer.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Factory.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\FileInterface.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Filter.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\FontEffect.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\FontEffectInstancer.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\FontEngineInterface.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\FontGlyph.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\FontMetrics.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Geometry.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Header.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ID.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Input.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Log.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Math.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Matrix4.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Mesh.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\MeshUtilities.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\NumericValue.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ObserverPtr.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Platform.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Plugin.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Profiling.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\PropertiesIteratorView.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Property.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\PropertyDefinition.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\PropertyDictionary.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\PropertyIdSet.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\PropertyParser.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\PropertySpecification.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Rectangle.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\RenderBox.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\RenderInterface.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\RenderInterfaceCompatibility.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\RenderManager.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ScriptInterface.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\ScrollTypes.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Span.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Spritesheet.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StableVector.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Stream.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StreamMemory.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StringUtilities.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StyleSheet.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StyleSheetContainer.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StyleSheetSpecification.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StyleSheetTypes.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\StyleTypes.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\SystemInterface.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\TextInputContext.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\TextInputHandler.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\TextShapingContext.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Texture.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Traits.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Transform.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\TransformPrimitive.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Tween.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\TypeConverter.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Types.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\URL.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\UniqueRenderResource.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Unit.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Utilities.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Variant.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Vector2.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Vector3.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Vector4.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\Vertex.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\XMLNodeHandler.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Core\XMLParser.h">
+      <Filter>Include\RmlUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Debugger.h">
+      <Filter>Include\RmlUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Debugger\Debugger.h">
+      <Filter>Include\RmlUi\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Debugger\Header.h">
+      <Filter>Include\RmlUi\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lottie\ElementLottie.h">
+      <Filter>Include\RmlUi\Lottie</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua.h">
+      <Filter>Include\RmlUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua\Header.h">
+      <Filter>Include\RmlUi\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua\IncludeLua.h">
+      <Filter>Include\RmlUi\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua\Interpreter.h">
+      <Filter>Include\RmlUi\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua\Lua.h">
+      <Filter>Include\RmlUi\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua\LuaType.h">
+      <Filter>Include\RmlUi\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\Lua\Utilities.h">
+      <Filter>Include\RmlUi\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RmlUi\SVG\ElementSVG.h">
+      <Filter>Include\RmlUi\SVG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Clock.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ComputeProperty.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ContextInstancerDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ControlledLifetimeResource.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DataController.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DataControllerDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DataExpression.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DataModel.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DataView.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DataViewDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorGradient.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorNinePatch.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorShader.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorText.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorTiled.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorTiledBox.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorTiledHorizontal.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorTiledImage.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorTiledVertical.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DecoratorUtilities.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DocumentHeader.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementAnimation.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementBackgroundBorder.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementDefinition.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementEffects.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementHandle.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementMeta.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ElementStyle.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\ElementImage.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\ElementLabel.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\ElementTextSelection.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputType.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputTypeButton.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputTypeCheckbox.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputTypeRadio.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputTypeRange.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputTypeSubmit.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\InputTypeText.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\WidgetDropDown.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\WidgetSlider.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\WidgetTextInput.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\WidgetTextInputMultiLine.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\WidgetTextInputSingleLine.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\WidgetTextInputSingleLinePassword.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\XMLNodeHandlerSelect.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\XMLNodeHandlerTabSet.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Elements\XMLNodeHandlerTextArea.h">
+      <Filter>Source\Core\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\EventDispatcher.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\EventInstancerDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\EventSpecification.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FileInterfaceDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FilterBasic.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FilterBlur.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FilterDropShadow.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEffectBlur.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEffectGlow.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEffectOutline.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEffectShadow.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontEngineInterfaceDefault.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontFace.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontFaceHandleDefault.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontFaceLayer.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontFamily.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontProvider.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FontTypes.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FontEngineDefault\FreeTypeInterface.h">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GeometryBackgroundBorder.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GeometryBoxShadow.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\IdNameMap.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\BlockContainer.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\BlockFormattingContext.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\ContainerBox.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\FlexFormattingContext.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\FloatedBoxSpace.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\FormattingContext.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\InlineBox.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\InlineContainer.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\InlineLevelBox.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\InlineTypes.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\LayoutBox.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\LayoutDetails.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\LayoutEngine.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\LayoutPools.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\LineBox.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\ReplacedFormattingContext.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\TableFormattingContext.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Layout\TableFormattingDetails.h">
+      <Filter>Source\Core\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\LogDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Memory.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PluginRegistry.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Pool.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertiesIterator.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserAnimation.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserBoxShadow.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserColorStopList.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserColour.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserDecorator.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserFilter.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserFontEffect.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserKeyword.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserNumber.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserRatio.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserString.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyParserTransform.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PropertyShorthandDefinition.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\RenderManagerAccess.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\ScrollController.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\StreamFile.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\StyleSheetFactory.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\StyleSheetNode.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\StyleSheetParser.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\StyleSheetSelector.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Template.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TemplateCache.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TextureDatabase.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TextureLayout.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TextureLayoutRectangle.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TextureLayoutRow.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TextureLayoutTexture.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TransformState.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TransformUtilities.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\WidgetScroll.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\XMLNodeHandlerBody.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\XMLNodeHandlerDefault.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\XMLNodeHandlerHead.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\XMLNodeHandlerTemplate.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\XMLParseTools.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\precompiled.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\BeaconSource.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\CommonSource.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\DebuggerPlugin.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\DebuggerSystemInterface.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\ElementContextHook.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\ElementDebugDocument.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\ElementInfo.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\ElementLog.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\FontSource.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\Geometry.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\InfoSource.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\LogSource.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debugger\MenuSource.h">
+      <Filter>Source\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lottie\LottiePlugin.h">
+      <Filter>Source\Lottie</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Colourb.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Colourf.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Context.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\ContextDocumentsProxy.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Document.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Element.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\ElementAttributesProxy.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\ElementChildNodesProxy.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\ElementInstancer.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\ElementStyleProxy.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\ElementText.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\As.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\ElementForm.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\ElementFormControl.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\ElementFormControlInput.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\ElementFormControlSelect.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\ElementFormControlTextArea.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\ElementTabSet.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Elements\SelectOptionsProxy.h">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Event.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\EventParametersProxy.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\GlobalLuaFunctions.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Log.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaDataModel.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaDocument.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaDocumentElementInstancer.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaElementInstancer.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaEventListener.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaEventListenerInstancer.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\LuaPlugin.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Pairs.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\RmlUi.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\RmlUiContextsProxy.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Vector2f.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lua\Vector2i.h">
+      <Filter>Source\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SVG\DecoratorSVG.h">
+      <Filter>Source\SVG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SVG\SVGCache.h">
+      <Filter>Source\SVG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SVG\SVGPlugin.h">
+      <Filter>Source\SVG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\BaseXMLParser.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Box.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\CallbackTexture.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Clock.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\CompiledFilterShader.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ComputeProperty.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ComputedValues.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Context.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ContextInstancer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ContextInstancerDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ConvolutionFilter.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Core.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataController.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataControllerDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataExpression.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataModel.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataModelHandle.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataTypeRegister.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataVariable.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataView.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DataViewDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Decorator.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorGradient.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorNinePatch.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorShader.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorText.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorTiled.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorTiledBox.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorTiledHorizontal.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorTiledImage.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorTiledVertical.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DecoratorUtilities.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DocumentHeader.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\EffectSpecification.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Element.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementAnimation.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementBackgroundBorder.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementDefinition.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementDocument.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementEffects.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementHandle.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementInstancer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementMeta.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementScroll.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementStyle.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementText.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ElementUtilities.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementForm.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementFormControl.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementFormControlInput.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementFormControlSelect.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementFormControlTextArea.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementImage.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementLabel.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementProgress.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementTabSet.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\ElementTextSelection.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputType.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputTypeButton.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputTypeCheckbox.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputTypeRadio.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputTypeRange.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputTypeSubmit.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\InputTypeText.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\WidgetDropDown.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\WidgetSlider.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\WidgetTextInput.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\WidgetTextInputMultiLine.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\WidgetTextInputSingleLine.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\WidgetTextInputSingleLinePassword.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\XMLNodeHandlerSelect.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\XMLNodeHandlerTabSet.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Elements\XMLNodeHandlerTextArea.cpp">
+      <Filter>Source\Core\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Event.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\EventDispatcher.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\EventInstancer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\EventInstancerDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\EventListenerInstancer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\EventSpecification.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Factory.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FileInterface.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FileInterfaceDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Filter.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FilterBasic.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FilterBlur.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FilterDropShadow.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEffect.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEffectBlur.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEffectGlow.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEffectInstancer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEffectOutline.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEffectShadow.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FontEngineInterfaceDefault.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FontFace.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FontFaceHandleDefault.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FontFaceLayer.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FontFamily.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FontProvider.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineDefault\FreeTypeInterface.cpp">
+      <Filter>Source\Core\FontEngineDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\FontEngineInterface.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Geometry.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GeometryBackgroundBorder.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GeometryBoxShadow.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\BlockContainer.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\BlockFormattingContext.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\ContainerBox.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\FlexFormattingContext.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\FloatedBoxSpace.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\FormattingContext.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\InlineBox.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\InlineContainer.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\InlineLevelBox.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\LayoutBox.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\LayoutDetails.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\LayoutEngine.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\LayoutPools.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\LineBox.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\ReplacedFormattingContext.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\TableFormattingContext.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Layout\TableFormattingDetails.cpp">
+      <Filter>Source\Core\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Log.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\LogDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Math.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Memory.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\MeshUtilities.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ObserverPtr.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Plugin.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PluginRegistry.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Profiling.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertiesIteratorView.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Property.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyDefinition.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyDictionary.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserAnimation.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserBoxShadow.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserColorStopList.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserColour.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserDecorator.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserFilter.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserFontEffect.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserKeyword.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserNumber.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserRatio.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserString.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertyParserTransform.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PropertySpecification.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\RenderInterface.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\RenderInterfaceCompatibility.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\RenderManager.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\RenderManagerAccess.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\ScrollController.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Spritesheet.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Stream.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StreamFile.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StreamMemory.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StringUtilities.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheet.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheetContainer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheetFactory.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheetNode.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheetParser.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheetSelector.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StyleSheetSpecification.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\SystemInterface.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Template.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TemplateCache.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Texture.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TextureDatabase.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TextureLayout.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TextureLayoutRectangle.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TextureLayoutRow.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TextureLayoutTexture.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Traits.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Transform.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TransformPrimitive.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TransformState.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TransformUtilities.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Tween.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\TypeConverter.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\URL.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Variant.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\WidgetScroll.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLNodeHandler.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLNodeHandlerBody.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLNodeHandlerDefault.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLNodeHandlerHead.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLNodeHandlerTemplate.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLParseTools.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\XMLParser.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\Debugger.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\DebuggerPlugin.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\DebuggerSystemInterface.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\ElementContextHook.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\ElementDebugDocument.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\ElementInfo.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\ElementLog.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger\Geometry.cpp">
+      <Filter>Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lottie\ElementLottie.cpp">
+      <Filter>Source\Lottie</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lottie\LottiePlugin.cpp">
+      <Filter>Source\Lottie</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Colourb.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Colourf.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Context.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\ContextDocumentsProxy.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Document.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Element.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\ElementAttributesProxy.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\ElementChildNodesProxy.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\ElementInstancer.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\ElementStyleProxy.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\ElementText.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\ElementForm.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\ElementFormControl.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\ElementFormControlInput.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\ElementFormControlSelect.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\ElementFormControlTextArea.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\ElementTabSet.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Elements\SelectOptionsProxy.cpp">
+      <Filter>Source\Lua\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Event.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\EventParametersProxy.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\GlobalLuaFunctions.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Interpreter.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Log.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Lua.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaDataModel.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaDocument.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaDocumentElementInstancer.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaElementInstancer.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaEventListener.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaEventListenerInstancer.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaPlugin.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaType.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\RmlUi.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\RmlUiContextsProxy.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Utilities.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Vector2f.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\Vector2i.cpp">
+      <Filter>Source\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SVG\DecoratorSVG.cpp">
+      <Filter>Source\SVG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SVG\ElementSVG.cpp">
+      <Filter>Source\SVG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SVG\SVGCache.cpp">
+      <Filter>Source\SVG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SVG\SVGPlugin.cpp">
+      <Filter>Source\SVG</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
