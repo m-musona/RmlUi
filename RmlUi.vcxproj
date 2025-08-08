@@ -75,7 +75,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>RMLUI_STATIC_LIB;RMLUI_NO_FONT_INTERFACE_DEFAULT;RMLUI_NO_DEFAULT_RENDER_INTERFACE;RMLUI_LOTTIE_PLUGIN;RMLUI_SVG_PLUGIN;LUNASVG_BUILD_STATIC;_CRT_SECURE_NO_WARNINGS;_DEBUG;RMLUI_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RLOTTIE_STATIC;RMLUI_STATIC_LIB;RMLUI_NO_FONT_INTERFACE_DEFAULT;RMLUI_NO_DEFAULT_RENDER_INTERFACE;RMLUI_LOTTIE_PLUGIN;RMLUI_SVG_PLUGIN;LUNASVG_BUILD_STATIC;_CRT_SECURE_NO_WARNINGS;_DEBUG;RMLUI_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>Include;Source;..\freetype\include;..\freetype\include\freetype;..\rlottie\inc;..\lunasvg\include;Dependencies\lua-5.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
@@ -88,14 +88,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalDependencies>..\freetype\build\Release\freetype.lib;..\rlottie\build\Release\rlottie.lib;..\lunasvg\build\Release\lunasvg.lib;..\lunasvg\build\plutovg\Release\plutovg.lib;Dependencies\lua-5.4.2\lua54.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dependencies\lua-5.4.2\lua54.lib;..\freetype\build-debug\Debug\freetyped.lib;..\rlottie\build-debug\Debug\rlottie.lib;..\lunasvg\build-debug\Debug\lunasvg.lib;..\lunasvg\build-debug\plutovg\Debug\plutovg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>RMLUI_STATIC_LIB;RMLUI_NO_FONT_INTERFACE_DEFAULT;RMLUI_NO_DEFAULT_RENDER_INTERFACE;RMLUI_LOTTIE_PLUGIN;RMLUI_SVG_PLUGIN;LUNASVG_BUILD_STATIC;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RLOTTIE_STATIC;RMLUI_STATIC_LIB;RMLUI_NO_FONT_INTERFACE_DEFAULT;RMLUI_NO_DEFAULT_RENDER_INTERFACE;RMLUI_LOTTIE_PLUGIN;RMLUI_SVG_PLUGIN;LUNASVG_BUILD_STATIC;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>Include;Source;..\freetype\include;..\freetype\include\freetype;..\rlottie\inc;..\lunasvg\include;Dependencies\lua-5.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -112,14 +112,14 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalDependencies>..\freetype\build\Release\freetype.lib;..\rlottie\build\Release\rlottie.lib;..\lunasvg\build\Release\lunasvg.lib;..\lunasvg\build\plutovg\Release\plutovg.lib;Dependencies\lua-5.4.2\lua54.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dependencies\lua-5.4.2\lua54.lib;..\freetype\build\Release\freetype.lib;..\rlottie\build\Release\rlottie.lib;..\lunasvg\build\Release\lunasvg.lib;..\lunasvg\build\plutovg\Release\plutovg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>RMLUI_STATIC_LIB;RMLUI_NO_FONT_INTERFACE_DEFAULT;RMLUI_NO_DEFAULT_RENDER_INTERFACE;RMLUI_LOTTIE_PLUGIN;RMLUI_SVG_PLUGIN;LUNASVG_BUILD_STATIC;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RLOTTIE_STATIC;RMLUI_STATIC_LIB;RMLUI_NO_FONT_INTERFACE_DEFAULT;RMLUI_NO_DEFAULT_RENDER_INTERFACE;RMLUI_LOTTIE_PLUGIN;RMLUI_SVG_PLUGIN;LUNASVG_BUILD_STATIC;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>Include;Source;..\freetype\include;..\freetype\include\freetype;..\rlottie\inc;..\lunasvg\include;Dependencies\lua-5.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>None</DebugInformationFormat>
       <Optimization>Full</Optimization>
@@ -138,7 +138,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalDependencies>..\freetype\build\Release\freetype.lib;..\rlottie\build\Release\rlottie.lib;..\lunasvg\build\Release\lunasvg.lib;..\lunasvg\build\plutovg\Release\plutovg.lib;Dependencies\lua-5.4.2\lua54.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dependencies\lua-5.4.2\lua54.lib;..\freetype\build\Release\freetype.lib;..\rlottie\build\Release\rlottie.lib;..\lunasvg\build\Release\lunasvg.lib;..\lunasvg\build\plutovg\Release\plutovg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
