@@ -40,3 +40,6 @@ x64/
 vcpkg/
 CMakeSettings.json
 compile_commands.json
+
+bin/
+bin-int/
