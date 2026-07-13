@@ -1,0 +1,6 @@
+[submodule "Dependencies/rlottie"]
+	path = Dependencies/rlottie
+	url = https://github.com/m-musona/rlottie.git
+[submodule "Dependencies/lunasvg"]
+	path = Dependencies/lunasvg
+	url = https://github.com/m-musona/lunasvg.git
